@@ -1,4 +1,113 @@
-.product__image > img{
-    height: 250px;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Abril Fatface', serif;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 135px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+picture > img{
+    height: 100%;
     width: 200px;
+    object-fit: cover;
+}
+
+.container__card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.product_info{
+    padding: 30px;
+    width: 270px;
+}
+
+h1{
+    padding-bottom: 10px;
+    letter-spacing: .7px;
+}
+
+p{
+    font-weight: lighter;
+    font-size:14px;
+    color:hsl(228, 12%, 48%);
+}
+
+.perfume{
+    letter-spacing: 2px;
+}
+
+.parragraph{
+    letter-spacing: .3px;
+    font-weight: 100;
+    font-family: "Montserrat";
+    font-size: 10px;
+}
+
+.container__prices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.priceDiscount{
+    color: hsl(158, 36%, 37%);
+    padding-right: 10px;
+}
+
+.priceOriginal{
+    font-size: 9px;
+    text-decoration: line-through;
+}
+
+button{
+    border: 1px transparent;
+    border-radius: 5px;
+    background-color:hsl(158, 36%, 37%);
+    padding: 7px 55px;
+    text-align: center;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: lighter;
+    letter-spacing: .5px;
+}
+
+button > small{
+    padding-right: 5px;
+}
+
+/*RESPONSIVE DESIGN: 375 PX IS THE SIZE REQUIRED IN THIS CHALLENGE*/
+@media (max-width: 375px) {
+    .container__card{
+        flex-direction: column;
+        border: 1px solid blue;
+    }
+
+    .container{
+        border: 0 transparent red;
+        width: 0px;
+        height: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: transparent;
+    }
+   
 }
