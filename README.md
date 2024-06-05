@@ -18,4 +18,5 @@ Thanks for checking out this front-end coding challenge.
 ✔ BEM Methodology
 ✔ UX/UI
 ✔ User experience
+✔ Figma design
 
