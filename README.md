@@ -12,11 +12,18 @@ Thanks for checking out this front-end coding challenge.
 ## What did I improve?
 
 ✔ Responsive design
+
 ✔ Web Accessibility
+
 ✔ Pixel-Perfect Design
+
 ✔ Frontend techniques
+
 ✔ BEM Methodology
+
 ✔ UX/UI
+
 ✔ User experience
+
 ✔ Figma design
 
