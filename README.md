@@ -14,6 +14,7 @@ Thanks for checking out this front-end coding challenge.
 
 ## What did I improve?
 
+
 ✔ Responsive design
 
 ✔ Web Accessibility
