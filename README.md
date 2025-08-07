@@ -21,6 +21,7 @@ Thanks for checking out this front-end coding challenge.
 
 ✔ Responsive design
 
+
 ✔ Web Accessibility
 
 ✔ Pixel-Perfect Design
